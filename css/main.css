@@ -54,6 +54,9 @@ address {
     background: rgba(0,0,0,0.5);
     display: block;
 }
+.adv-wrap {
+    background: rgba(0,0,0,0.2);
+}
 
 .visualisation {
     position: relative;
@@ -62,6 +65,8 @@ address {
     background-position: bottom;
     height: 520px;
     color:  #f7d67b;
+    padding: 0;
+    
 }
 .center {
     margin: 0;
@@ -69,12 +74,14 @@ address {
     font-size: 216%;
     margin: auto;
     text-align: center;     
-    display: block;
-   
-         
+    display: block; 
 }
 
-.center.adv{
+.go-registration {
+    min-width: 100%;
+}
+
+.center.adv {
     font-size: 240%;
     
 }

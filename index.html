@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="uk">
 <head>
     <meta charset="utf-8">
@@ -10,49 +10,58 @@
     <!--* **** !-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="screen">
-    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
-    <link href="css/material.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/materialdesignicons.min.css" type="text/css" media="screen">
     <link href="css/main.css" rel="stylesheet"> 
-    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    
 </head>
-<!-- sonyachna.o@ukr.net-->
+<!-- pochaivsky -->
 
 <body>
     <header>
-        <a href="#" class="logo"></a>
-        <h1>Житловий Комплекс Почаївський</h1>
-        <address>м. Буча, вул Катерини Білокур 3</address>
+        <a href="#" class="logo col-md-3" ><img src="img/po-logo.png" alt="Почаївский" /> </a>
+        <div class="info col-md-9">
+            <h1>Житловий Комплекс Почаївський</h1> <br />
+            <address>м. Буча, вул Катерини Білокур 3</address>
+        </div>
     </header>
     <main>
- <h3>Не можеш дочекатися? Будь Першим!</h3>
-    <form type="POST" action="s/send.php">
+   
+    <div class="visualisation" >
+        <h2 class="wow center adv"><span>Не можеш дочекатися? Будь Першим!</span></h2>
+         <h2 class="wow center">
+               <span class="phone">068-875-42-30</span> 
+         </h2>
+     <form class="go-registration" type="POST" action="s/send.php">
         <div class="form-group">
 <!--            <span class="col-md-2 control-label">Ваше Ім*я</span>-->
            
                 <div class="form-group row">
-                    <label for="name" class="col-md-1 control-label">Ваше Ім*я</label>
-                    <div class="col-md-2">
-                        <input type="text" class="form-control" id="name" placeholder="Ваше Прізвище Ім*я та По-батькові">
+                    <label for="name" class="col-md-1 control-label">Ваше Ім'я</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="name" placeholder="Ваше Ім'я">
                     </div>
-                   <label for="email" class="col-md-1 control-label">Ваш E-mail</label>
+                   <label for="email" class="col-md-1 control-label">Ваш e-mail</label>
                     <div class="col-md-2">
-                        <input type="text" class="form-control" id="email" placeholder="Ваше Ім*я">
+                        <input type="text" class="form-control" id="email" placeholder="Ваш e-mail">
                     </div>
                     <div class="col-md-2">
-                    <label for="phone" class="col-md-1 control-label">Номер телефону</label>
-                     <input type="text" class="form-control" id="phone" placeholder="Телефон">
+                    <label for="phone" class="col-md-1 control-label">Мобільний</label>
+                     <input type="text" class="form-control" id="phone" placeholder="Номер телефону">                
+                     
+                    </div>
+                    <div class="col-md-2">
+                        <button type="btn btn-info submit" class="form-control" id="submit">Приєднатися </button> 
+                    </div>
                     
-                        <input type="submit" class="form-control" id="submit" value="Приєднатися"> 
-                    </div>
-                </div>
-            <address class="phone">
-                <h3>068-875-42-30</h3>
-            </address>
+            </div>
+           
             
                 
         </div>
     </form>
+   
+    </div>    
+        
     </main>
     
     <script src="js/jquery-2.1.4.min.js"></script>

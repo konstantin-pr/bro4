@@ -1,0 +1,102 @@
+body
+{
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    padding: 0 20px;
+    color:  #f7d67b;
+    background: #052108;
+}
+
+header .logo, header .logo img {
+    display: inline-block;
+    height: 200px;
+    margin: 0;
+}
+
+header .info {
+    display: inline-block;
+    text-align: center;
+    margin: 4% auto 1%;
+    margin-left: -5%;
+}
+
+header h1, header address {
+    display: inline;
+}
+
+header h1 {
+    font-size: 300%;
+}
+
+address {
+    font-size: 200%;
+    font-style: normal;
+}
+
+
+/*Hero area*/
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.go-registration {
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    display: block;
+}
+
+.visualisation {
+    position: relative;
+    background:  url(../img/visual.png) 0 0 no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 520px;
+    color:  #f7d67b;
+}
+.center {
+    margin: 0;
+    padding: 15px 0 9px 0 ;
+    font-size: 216%;
+    margin: auto;
+    text-align: center;     
+    display: block;
+   
+         
+}
+
+.center.adv{
+    font-size: 240%;
+    
+}
+.center .phone {
+    font-weight: bold;
+    color: beige;
+    letter-spacing: 2px;
+     
+}
+
+ 
+
+/*Main colors*/
+.brown
+{
+    background-color: #7a3900; 
+} 
+
+.beige {
+    background-color: #f7d67b;
+}
+
+.green {
+    background-color: #053412;
+}

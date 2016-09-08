@@ -104,7 +104,7 @@ label {
 }
 .center .phone {
     font-weight: bold;
-    color: gold;
+    color: #f7d67b; 
     letter-spacing: 2px;
     font-family: Tahoma, serif;
     font-weight: normal; 
@@ -114,6 +114,10 @@ button {
      font-family: Arial, sans-serif;
 }
 
+.digit {
+    position: relative;
+    top: -4px;
+}
 
 textarea:focus,
 input[type="text"]:focus,
@@ -162,7 +166,7 @@ input[type="color"]:focus,
  
 /*Main colors*/
 
-@media (min-width: 750px) and (max-width: 928px){
+@media (min-width: 758px) and (max-width: 1000px){
     .go-registration{
             bottom: 160px;
     }

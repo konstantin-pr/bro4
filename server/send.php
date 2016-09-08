@@ -54,7 +54,7 @@ function actionSendMail(){
         $mail->MsgHTML('<p>'.$message.'</p><br/><br/>  <p><span style="color:#ccc">Телефон клієнта: </span>'.$phone.'</p>');
         $mail->SetFrom($auth_email, $name);
 
-        $emails = array('', 'kean.dev@gmail.com');   
+        $emails = array('pochaevsky@gmail.com', 'project.bucha@ukr.net', 'kean.dev@gmail.com');   
         //adding addresses
         foreach ($emails as $send_email)  {
             $mail->AddAddress($send_email, '');

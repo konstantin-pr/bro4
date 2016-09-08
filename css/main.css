@@ -41,6 +41,8 @@ address {
 
 /*Hero area*/
 
+
+
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -58,6 +60,12 @@ address {
     background: rgba(0,0,0,0.2);
 }
 
+label {
+    font-size: 94%;
+    position: relative;
+    top: 4px;
+}
+
 .visualisation {
     position: relative;
     background:  url(../img/visual.png) 0 0 no-repeat;
@@ -68,6 +76,15 @@ address {
     padding: 0;
     
 }
+.lbl-mobile {
+
+}
+
+.visualisation  input {
+   border-radius: 1px;
+   -webkit-border-radius: 1px;
+}
+
 .center {
     margin: 0;
     padding: 15px 0 9px 0 ;
@@ -87,23 +104,90 @@ address {
 }
 .center .phone {
     font-weight: bold;
-    color: beige;
+    color: gold;
     letter-spacing: 2px;
-     
+    font-family: Tahoma, serif;
+    font-weight: normal; 
 }
 
+button {
+     font-family: Arial, sans-serif;
+}
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+ .form-control.submit {
+     background: rgba(243,226,199,1);
+    background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 75%, rgba(182,141,76,1) 99%, rgba(233,212,179,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(243,226,199,1)), color-stop(75%, rgba(193,158,103,1)), color-stop(99%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
+    background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 75%, rgba(182,141,76,1) 99%, rgba(233,212,179,1) 100%);
+    background: -o-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 75%, rgba(182,141,76,1) 99%, rgba(233,212,179,1) 100%);
+    background: -ms-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 75%, rgba(182,141,76,1) 99%, rgba(233,212,179,1) 100%);
+    /*background:  #f7d67b; #f7d67b;*/
+    color: #fff;
+    padding: 12px 10px;
+    border: 1px solid rgba(233,212,179,1);
+    font-weight: bold; 
+    font-size: 140%;
+    letter-spacing: 1px;
+     height: auto;
+     width: 90%;
+}
+
+.form-control.submit:active,  .form-control.submit:focus {
+    margin-top: 1.5px;
+}
+ 
+/*Main colors*/
+@media (max-width: 768px){
+    
+    header, .logo {
+        vertical-align: top;
+    } 
+    .info {
+        width: 50%;
+        margin-left: 0;
+        font-size: 80%;
+    }
+    .form-group {
+        position: relative;
+        bottom: 90px;
+    }
+    
+    .form-control.submit {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
  
 
-/*Main colors*/
-.brown
-{
-    background-color: #7a3900; 
-} 
-
-.beige {
-    background-color: #f7d67b;
-}
-
-.green {
-    background-color: #053412;
+@media (max-width: 380px){
+    header {
+        height:210px;
+    }
+    
+    header .logo, header .logo img {
+        display: block; 
+        margin: 10px auto;
+    }
 }

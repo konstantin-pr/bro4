@@ -30,29 +30,36 @@
         <div class="adv-wrap">
         <h2 class="wow center adv"><span>Не можеш дочекатися? Будь Першим!</span></h2>
          <h2 class="wow center">
-               <span class="phone">068-875-42-30</span> 
+                <i class="mdi mdi-phone-classic"></i> <span class="phone">068-875-42-30</span> 
          </h2>
         </div>
      <form class="go-registration" type="POST" action="s/send.php">
         <div class="form-group">
-<!--            <span class="col-md-2 control-label">Ваше Ім*я</span>-->
-           
+<!--            <span class="col-md-2 control-label">Ваше Ім*я</span>--> 
                 <div class="form-group row">
                     <label for="name" class="col-md-1 control-label">Ваше Ім'я</label>
-                    <div class="col-md-3">
-                        <input type="text" class="form-control" id="name" placeholder="Ваше Ім'я">
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" id="name" placeholder="Ваше Прізвище Ім'я">
                     </div>
+<!--
+                     <div class="col-md-2">
+                        <label for="phone" class="col-md-1 control-label lbl-mobile">Мобільний</label> 
+                     <input type="text" class="form-control" id="phone" placeholder="Номер телефону"> 
+                    </div>
+-->
+                      <label for="email" class="col-md-1 control-label">Телефон </label>
+                    <div class="col-md-2">
+                        <input type="text" class="form-control" id="email" placeholder="Номер телефону">
+                    </div>
+                   
+                    
                    <label for="email" class="col-md-1 control-label">Ваш e-mail</label>
                     <div class="col-md-2">
                         <input type="text" class="form-control" id="email" placeholder="Ваш e-mail">
                     </div>
-                    <div class="col-md-2">
-                    <label for="phone" class="col-md-1 control-label">Мобільний</label>
-                     <input type="text" class="form-control" id="phone" placeholder="Номер телефону">                
-                     
-                    </div>
-                    <div class="col-md-2">
-                        <button type="btn btn-info submit" class="form-control" id="submit">Приєднатися </button> 
+                   
+                    <div class="col-md-3">
+                        <button type="btn submit" class="form-control submit" id="submit">Приєднатися </button> 
                     </div>
                     
             </div>

@@ -161,6 +161,18 @@ input[type="color"]:focus,
 }
  
 /*Main colors*/
+
+@media (min-width: 750px) and (max-width: 928px){
+    .go-registration{
+            bottom: 160px;
+    }
+     .form-control.submit {
+        width: 100%;
+        margin-top: 20px;
+        position: static;
+    }
+}
+
 @media (max-width: 768px){
     header, .logo {
         vertical-align: top;

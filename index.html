@@ -18,49 +18,49 @@
 
 <body>
     <header>
-        <a href="#" class="logo col-md-3" ><img src="img/po-logo.png" alt="Почаївский" /> </a>
-        <div class="info col-md-9">
-            <h1>Житловий Комплекс Почаївський <span class="digit">3</span></h1> <br />
-            <address>м. Буча, вул Катерини Білокур <span class="digit">3</span></address>
+        <h1>Житловий Комплекс Почаївський <span class="digit">3</span></h1>
+        <a href="/" class="logo"> <img src="img/logo-tranparent.png" /> </a>
+         <div class="info"> 
+                <h3 class="phone"><i class="mdi mdi-phone-classic"></i>068-409-58-99</h3>  
+                <h3 class="phone"> <i class="mdi mdi-phone-classic"></i>063-135-63-77</h3>  
+            <address>м. Буча, вул Катерини Білокур, 3</address>
         </div>
     </header>
     <main>
    
     <div class="visualisation" >
-        <div class="adv-wrap">
-        <h2 class="wow center adv"><span>Не можеш дочекатися? Будь Першим!</span></h2>
-         <h2 class="wow center">
-                <i class="mdi mdi-phone-classic"></i> <span class="phone">068-875-42-30</span> 
-         </h2>
-        </div>
+      
+        <h3 class="wow center adv">Не можеш дочекатися? </h3>
+        <h2 class="wow center adv2">Будь Першим!</h2>
+  
      <form class="go-registration" type="POST" action="server/send.php">
-        <div class="form-group">
+        <div>
 <!--            <span class="col-md-2 control-label">Ваше Ім*я</span>--> 
                 <div class="form-group row">
-                    <label for="name" class="col-md-1 control-label">Ваше Ім'я</label>
-                    <div class="col-md-2">
+                
+                    <div class="col-md-4">
                         <input type="text" class="form-control" required name="name" id="name" placeholder="Ваше Прізвище Ім'я">
                     </div> 
-                      <label for="phone" class="col-md-1 control-label">Телефон </label>
-                    <div class="col-md-2">
+                       
+                    <div class="col-md-4">
                         <input type="text" class="form-control" name="phone" required id="phone" placeholder="Номер телефону">
                     </div>
-                   <label for="email" class="col-md-1 control-label">Ваш e-mail</label>
-                    <div class="col-md-2">
-                        <input type="text" class="form-control" name="email" id="email" placeholder="Ваш e-mail">
-                    </div>
                    
-                    <div class="col-md-3">
-                        <button type="btn submit" class="form-control submit" id="submit">Приєднатися </button> 
-                    </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="email" id="email" placeholder="Ваш e-mail">
+                    </div> 
                     
             </div>
-           
+            <div class="row">
+                        <div class="center">
+                            <button type="btn submit" class="submit" id="submit"><span>Приєднатися</span></button> 
+                        </div>
+            </div>
             
                 
         </div>
     </form>
-   
+         </div>
     </div>    
         
     </main>

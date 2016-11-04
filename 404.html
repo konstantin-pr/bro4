@@ -1,18 +1,77 @@
-<!doctype html>
+<!Doctype html>
 <html lang="uk">
-
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Житловий Комплекс Почаївський, місто Буча">
-    <meta name="keywords" content="Житловий Комплекс Почаївський житловий квартал Буча">
+    <meta name="description" content="Житловий квартал Почаївський 3, місто Буча">
+    <meta name="keywords" content="Почаївський 3 житловий квартал Буча">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="kean.dev@gmail.com">
     <title>Житловий Комплекс Почаївський</title>
     <!--* **** !-->
-    <link href="css/bootstrap.min.css" rel="stylesheet"> 
-  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/materialdesignicons.css" type="text/css" media="screen">
+    <link href="css/main.css" rel="stylesheet"> 
+    
 </head>
-<h3 style="color:orange">Сторінка не знайдена</h3>
-<h4 style="color: #666666">Перейти на <a href="/" style="color:greenyellow">Головну сторінку</a></h4>
+<!-- pochaivsky -->
+
+<body>
+    <header>
+        <h1>Житловий Комплекс Почаївський <span class="digit">3</span></h1>
+        <a href="/" class="logo"> <img src="img/logo-tranparent.png" /> </a>
+         <div class="info"> 
+                <h3 class="phone"><i class="mdi mdi-phone-classic"></i>068-409-58-99</h3>  
+                <h3 class="phone"> <i class="mdi mdi-phone-classic"></i>063-135-63-77</h3>  
+            <address>м. Буча, вул Катерини Білокур, 3</address>
+        </div>
+    </header>
+    <main>
+   
+    <div class="visualisation" >
+      
+        <h3 class="wow center adv">Сторінка не знайдена!</h3>
+        <h2 class="wow center adv2">Написати листа.</h2>
+  
+     <form class="go-registration" type="POST" action="server/send.php">
+        <div>
+<!--            <span class="col-md-2 control-label">Ваше Ім*я</span>--> 
+                <div class="form-group row">
+                
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" required name="name" id="name" placeholder="Ваше Прізвище Ім'я">
+                    </div> 
+                       
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="phone" required id="phone" placeholder="Номер телефону">
+                    </div>
+                   
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" name="email" id="email" placeholder="Ваш e-mail">
+                    </div> 
+                    
+            </div>
+            <div class="row">
+                        <div class="center">
+                            <button type="btn submit" class="submit" id="submit"><span>Приєднатися</span></button> 
+                        </div>
+            </div>
+            
+                
+        </div>
+    </form>
+         </div>
+    </div>    
+        
+    </main>
+    
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/classie.js"></script> 
+  
+<!--    <script src="js/main.js"></script>-->
+    <script> 
+    </script>
 </body>
+
 </html>

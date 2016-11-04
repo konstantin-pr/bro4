@@ -35,7 +35,7 @@ function actionSendMail(){
         $name = $_REQUEST["name"];
         //$reply_to_email = $_REQUEST["email"];
 
-        $reply_to_email = 'sonyachna.o@ukr.net';
+        $reply_to_email = 'pochaevsky@gmail.com';
         //$_REQUEST['ajax_request']  = 'on';
         $auth_email = 'kean.dev@yandex.ru'; //email that pass auth
 
@@ -55,7 +55,7 @@ function actionSendMail(){
         $mail->MsgHTML('<p>'.$message.'</p><br/><br/>  <p><span style="color:#ccc">Телефон клієнта: </span>'.$phone.'</p>');
         $mail->SetFrom($auth_email, $name);
 
-        $emails = array('pochaevsky@gmail.com', 'project.bucha@ukr.net', 'kean.dev@gmail.com');   
+        $emails = array('pochaevsky@gmail.com', 'project.bucha@ukr.net');   
         //adding addresses
         foreach ($emails as $send_email)  {
             $mail->AddAddress($send_email, '');
@@ -115,7 +115,7 @@ function actionSendMail(){
 
                 function second_passed() {
 
-                    window.location='http://k.shpp.me/bro4/';
+                    window.location='/';
 
                 }
 

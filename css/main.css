@@ -1,6 +1,6 @@
  
 body { 
-    background:  url(../img/visual.png) 0 0 no-repeat;
+    background:  url(../img/visual1.png) 0 0 no-repeat;
     background-size: cover;
     background-position: top;
     min-height: 564px;
@@ -35,7 +35,7 @@ header h1, header h2, header h3 {
 .info {
     position: absolute;
     right: 60px;
-    top: 8%;
+    top: 1%;
     color: #11350F;
 }
 
@@ -68,8 +68,8 @@ header .logo {
 }
 
 .logo img {
-    height: 288px;
-    width: 287px;
+    height: 320px;
+    width: 320px;
 }
 
 header h1 {

@@ -36,7 +36,7 @@ header h1, header h2, header h3 {
 .info {
     position: absolute;
     right: 60px;
-    top: 1%;
+    top: -14px;
     color: #11350F;
 }
 

@@ -61,11 +61,25 @@
                         
                 </div>
             </form>
-             </div>
+            </div>
          </div>    
         
     </main>
-    
+    <script type="text/javascript">
+
+        var w = document.querySelector('.wrapper'); 
+        var style = window.getComputedStyle(w);            
+        var img = new Image();
+        img.onload = function() { 
+            w.style.backgroundImage  = "url('"+img.src+"')";  
+        }
+        img.src = 'img/visual1.jpg'; 
+        if (img.complete) 
+        {
+              img.onload();                
+        }
+
+    </script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script src="js/classie.js"></script> 

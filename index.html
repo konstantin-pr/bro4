@@ -68,25 +68,21 @@
     </main>
     <script type="text/javascript">
 
-        var w = document.querySelector('.wrapper');
- 
-        var style = window.getComputedStyle(w);
-     
-        
+        var w = document.querySelector('.wrapper'); 
+        var style = window.getComputedStyle(w);            
         var img = new Image();
         img.onload = function() {
             //alert('image loaded');
             w.style.backgroundImage  = "url('"+img.src+"')"; 
             console.log('w', w.style);
-
         }
-        img.src = 'img/visual1.png';
-        console.log('img', img);
+        img.src = 'img/visual1.jpg';
+        //  console.log('img', img);
         if (img.complete) 
-            {
+        {
               img.onload();  
               
-            }
+        }
 
     </script>
     <script src="js/jquery-2.1.4.min.js"></script>

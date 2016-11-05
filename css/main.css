@@ -217,18 +217,16 @@ input[type="color"]:focus,
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color:    #4f0009 !important;
-}
+} 
 
-
- 
 .wrapper {
   display: table; 
   width: 100%;
   height: 100%;
-  background: lightblue url(../img/visual.png) 0 0 no-repeat;
-    background-size: cover;
-    background-position: top; 
-
+  background: #11350F; 0 0 no-repeat;
+  //background-image:  url(../img/visual.png);
+  background-size: cover;
+  background-position: top; 
 }
 
 html,

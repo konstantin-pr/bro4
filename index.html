@@ -17,8 +17,9 @@
 <!-- pochaivsky -->
 
 <body>
-    
+
     <main class="wrapper">
+
         <header class="header">
         <h1>Житловий Комплекс Почаївський <span class="digit">3</span></h1>
         <a href="/" class="logo"> <img src="img/logo-tranparent.png" /> </a>
@@ -65,7 +66,29 @@
          </div>    
         
     </main>
-    
+    <script type="text/javascript">
+
+        var w = document.querySelector('.wrapper');
+ 
+        var style = window.getComputedStyle(w);
+     
+        
+        var img = new Image();
+        img.onload = function() {
+            //alert('image loaded');
+            w.style.backgroundImage  = "url('"+img.src+"')"; 
+            console.log('w', w.style);
+
+        }
+        img.src = 'img/visual1.png';
+        console.log('img', img);
+        if (img.complete) 
+            {
+              img.onload();  
+              
+            }
+
+    </script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script> 
     <script src="js/classie.js"></script> 
